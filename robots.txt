@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jialiangw219.github.io/sitemap.xml
