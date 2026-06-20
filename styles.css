@@ -523,16 +523,32 @@ h4 {
 
   .bio-page {
     grid-template-columns: 1fr;
-    gap: 24px;
-    padding: 72px 0;
+    align-content: center;
+    min-height: 100svh;
+    min-height: 100dvh;
+    height: 100svh;
+    height: 100dvh;
+    gap: clamp(12px, 3dvh, 22px);
+    padding: clamp(28px, 7dvh, 54px) 0;
+    overflow: hidden;
   }
 
   .bio-copy {
     max-width: 100%;
   }
 
+  .bio-label {
+    margin-bottom: 10px;
+    font-size: clamp(1.45rem, 7vw, 1.9rem);
+  }
+
+  .bio-text {
+    font-size: clamp(0.76rem, 3.4vw, 0.88rem);
+    line-height: 1.58;
+  }
+
   .bio-portrait {
-    width: min(220px, 100%);
+    width: min(34dvh, 170px, 50vw);
     order: -1;
   }
 
