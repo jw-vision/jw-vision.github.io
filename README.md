@@ -3,7 +3,7 @@
 This is a static personal website designed to be hosted on GitHub Pages at:
 
 ```text
-https://jialiangw219.github.io/
+https://jw-vision.github.io/
 ```
 
 ## Preview locally
@@ -18,13 +18,13 @@ Then visit `http://localhost:8000`.
 
 ## Publish with GitHub Pages
 
-1. Create a new GitHub repository named `jialiangw219.github.io`.
+1. Create a new GitHub repository named `jw-vision.github.io`.
 2. Commit and push these files:
 
 ```bash
 git add .
 git commit -m "Create personal website"
-git remote add origin https://github.com/jialiangw219/jialiangw219.github.io.git
+git remote add origin https://github.com/jw-vision/jw-vision.github.io.git
 git push -u origin main
 ```
 
@@ -32,4 +32,4 @@ git push -u origin main
 4. Under `Build and deployment`, choose `Deploy from a branch`.
 5. Select `main` and `/ (root)`, then save.
 
-GitHub will publish the site at `https://jialiangw219.github.io/`.
+GitHub will publish the site at `https://jw-vision.github.io/`.
